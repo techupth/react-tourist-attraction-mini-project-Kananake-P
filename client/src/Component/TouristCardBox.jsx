@@ -13,7 +13,7 @@ function TouristCardBox(props) {
           <h1 className="text-4xl font-bold ">{props.title}</h1>
           <p className="py-6 text-3xl leading-relaxed">
             {props.description} <br></br>
-            <a href={props.url} className="text-blue-700 underline">
+            <a href={props.url} target="_blank" className="text-blue-700 underline">
               อ่านต่อ
             </a>
             <h6 className="text-slate-500 ">
@@ -34,7 +34,7 @@ function TouristCardBox(props) {
               src={props.photos[3]}
               className=" rounded-lg shadow-2xl size-36"
             />
-            <a href={props.url} className="text-6xl flex">
+            <a href={props.url} target="_blank" className="text-6xl flex">
               <button>🔗</button>
             </a>
           </div>
